@@ -1,0 +1,36 @@
+*{
+    margin: 0 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body{
+    background-color: #6bd42f;
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-top: 5vh;
+}
+.imagem{
+    display: flex;
+    height: 90vh;
+    width:100%;
+    justify-content: flex-start;
+}
+.imagem>img{
+    width: 30%;
+    height: 70%;
+    border-radius: 40px;
+    margin-left: 20vh;
+    margin-top: 10vh;
+}
+.texto>p, .texto>h1{
+    color: white;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    margin: 10vh;
+}
